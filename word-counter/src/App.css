@@ -1,0 +1,29 @@
+.App {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.App .container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  padding: 0px 2rem;
+  width: 35rem;
+  text-align: center;
+}
+.App .container textarea {
+  height: 8rem;
+  padding: 1rem;
+}
+.App .container p {
+  margin: 2rem 0;
+  align-self: flex-start;
+}
+.App #copyright {
+  font-size: small;
+  color: #cacaca;
+}
+.App #copyright a {
+  text-decoration: none;
+  color: #cacaca;
+}
